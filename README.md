@@ -1,16 +1,43 @@
-# mini_language_cards
+# 📘 Mini Language Cards
 
-A new Flutter project.
+A simple **Flutter language flashcards app**.  
+It shows 5 random words every day. Users can see the English word and its Turkish meaning.  
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Features
 
-A few resources to get you started if this is your first Flutter project:
+- Displays **5 random words daily**  
+- Avoids repeating yesterday’s words  
+- Responsive and clean UI  
+- State management with **Cubit**  
+- Easy to add new words (`word_list.dart`)  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🛠️ Tech Stack
+
+- **Flutter**  
+- **Dart**  
+- **flutter_bloc** (Cubit for state management)  
+- **equatable** (for state comparison)  
+
+---
+
+## ⚙️ Installation
+
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/username/minilanguagecards.git
+   cd minilanguagecards
+2. Install dependencies: 
+   ```bash
+   flutter pub get
+3. Run the app:
+   ```bash
+   flutter run
+
+   ## 📸 Screenshots
+
+### 🏠 Home Screen
+<img src="assets/home.png" alt="Home Screen" width="300"/>
